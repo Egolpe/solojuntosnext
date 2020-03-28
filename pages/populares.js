@@ -3,8 +3,8 @@ import Layout from "../components/layout/Layout";
 import DetallesCarta from "../components/layout/DetallesCarta";
 import useCartas from "../hooks/useCartas";
 
-const Home = () => {
-  const { cartas } = useCartas("creado");
+const Populares = () => {
+  const { cartas } = useCartas("votos");
 
   return (
     <div>
@@ -23,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Populares;
