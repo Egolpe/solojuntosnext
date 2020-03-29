@@ -64,7 +64,7 @@ const Carta = () => {
       };
       obtenerCarta();
     }
-  }, [id]);
+  }, [id, carta]);
 
   if (Object.keys(carta).length === 0 && !error) return "Cargando...";
 
