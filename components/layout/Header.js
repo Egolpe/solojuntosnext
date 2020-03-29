@@ -30,6 +30,7 @@ const Logo = styled.p`
   line-height: 0;
   font-weight: 700;
   font-family: "Roboto Slab", serif;
+  cursor: pointer;
   margin-right: 2rem;
   @media (max-width: 1024px) {
     line-height: 0.8;
