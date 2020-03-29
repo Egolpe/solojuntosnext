@@ -48,7 +48,7 @@ const Footer = () => {
       <div style={style}>
         <div>
           <Nav>
-            <Link href="/nosotros">
+            <Link href="/about-us">
               <a>
                 ¿Te apetece conocer el porqué de este proyecto o escribirnos?
               </a>
