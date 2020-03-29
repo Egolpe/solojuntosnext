@@ -63,3 +63,12 @@ export const Error = styled.p`
   @media (max-width: 600px) {
   }
 `;
+
+export const Terms = styled.a`
+  :link {
+    color: black;
+  }
+  :visited {
+    color: black;
+  }
+`;

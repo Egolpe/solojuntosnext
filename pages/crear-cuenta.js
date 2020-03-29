@@ -6,7 +6,8 @@ import {
   Formulario,
   Campo,
   InputSubmit,
-  Error
+  Error,
+  Terms
 } from "../components/ui/Formulario";
 
 import firebase from "../firebase/firebase";
@@ -18,7 +19,8 @@ import validarCrearCuenta from "../validacion/validarCrearCuenta";
 const STATE_INICIAL = {
   nombre: "",
   email: "",
-  password: ""
+  password: "",
+  terminos: false
 };
 
 const CrearCuenta = () => {
@@ -32,11 +34,11 @@ const CrearCuenta = () => {
     handleBlur
   } = useValidacion(STATE_INICIAL, validarCrearCuenta, crearCuenta);
 
-  const { nombre, email, password } = valores;
+  const { nombre, email, password, terminos } = valores;
 
   async function crearCuenta() {
     try {
-      await firebase.registrar(nombre, email, password);
+      await firebase.registrar(nombre, email, password, terminos);
       Router.push("/");
     } catch (error) {
       console.error("Hubo un error al crear el usuario ", error.message);
@@ -99,6 +101,20 @@ const CrearCuenta = () => {
               />
             </Campo>
             {errores.password && <Error>{errores.password}</Error>}
+
+            <Campo>
+              <label htmlFor="terminos">
+                <Terms href="/terms-conditions">Términos y condiciones</Terms>
+              </label>
+              <input
+                type="checkbox"
+                id="terminos"
+                name="terminos"
+                value={true}
+                onClick={handleChange}
+              />
+            </Campo>
+            {errores.terminos && <Error>{errores.terminos}</Error>}
 
             {error && <Error>{error} </Error>}
 
