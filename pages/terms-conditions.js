@@ -1,25 +1,8 @@
 import React from "react";
 import { css } from "@emotion/core";
-import styled from "@emotion/styled";
 import Layout from "../components/layout/Layout";
 
-import { TwitterIcon, EmailIcon, EmailShareButton } from "react-share";
-
-const AboutUs = () => {
-  const CNetwork = styled.div`
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin: 8px 0 15px 0;
-  `;
-  const Network = styled.div`
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    margin: 1.5rem 0.5rem 1.5rem;
-  `;
-
+const Terms = () => {
   return (
     <Layout>
       <article className="contenedor">
@@ -34,11 +17,11 @@ const AboutUs = () => {
         </h1>
         <div className="texto">
           <div>
-            <text
+            <p
               className="about-us"
               css={css`
                 text-align: justify;
-                text-justify: inter-character;
+                text-justify: inter-word;
               `}
             >
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -70,10 +53,8 @@ const AboutUs = () => {
               popularised in the 1960s with the release of Letraset sheets
               containing Lorem Ipsum passages, and more recently with desktop
               publishing software like Aldus Page
-            </text>
-          </div>
-          <div>
-            <text>
+              <br />
+              <br />
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -103,7 +84,7 @@ const AboutUs = () => {
               popularised in the 1960s with the release of Letraset sheets
               containing Lorem Ipsum passages, and more recently with desktop
               publishing software like Aldus Page
-            </text>
+            </p>
           </div>
         </div>
       </article>
@@ -111,4 +92,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Terms;
