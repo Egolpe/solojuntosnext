@@ -49,65 +49,35 @@ const AboutUs = () => {
                 text-justify: inter-character;
               `}
             >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum. <br />
-              <br /> Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book. It
-              has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum. <br />
-              <br /> Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book. It
-              has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus Page.
+              ¡Hola! Esta iniciativa nace a raíz de la petición de un médico de
+              Pamplona para que la gente enviase mensajes a los enfermos por
+              COVID-19 del CHN. La intención de esta plataforma es hacer que
+              todos ellos reciban esos mensajes en forma de carta. Pero también
+              queremos que esta iniciativa se haga extensiva a todos aquellos
+              que se sientan solos, desanimados, tristes o ansiosos, en sus
+              casas o allí donde estén pasando esta cuarentena. Para los
+              profesionales de la salud, de las fuerzas de seguridad de
+              cualquier ámbito, para cualquier tipo de profesional, al que le
+              lleva la compra al vecino o un largo etcétera de pequeños gestos
+              diarios. Hagamos que todos puedan recibir el aliento de los demás
+              que tanto necesitan. <br />
               <br />
-              <br /> Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book. It
-              has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum. <br />
-              <br /> Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book. It
-              has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum. <br />
-              <br /> Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book. It
-              has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus Page
+              Creemos que todos esos bonitos textos de las redes sociales se
+              pierden entre la multitud de mensajes y esta es una manera de
+              tenerlos siempre presentes. Nos gustaría además, que todos estos
+              mensajes, fuesen de ánimo. Por lo que entendemos que deben estar
+              libres de comentarios políticos, sexistas, racistas, homófobos…
+              <br />
+              <br />
+              Cabe decir que somos desarrolladores juniors y que esta iniciativa
+              también nos sirve tanto de aprendizaje como de exposición
+              profesional. No buscamos nada llamativo estéticamente con ella,
+              sino que cumpla la función para la que ha sido desarrollada.
+              Esperamos que os guste. <br />
+              <br />
+              Si alguien quiere ponerse en contacto con nosotros, puede hacerlo
+              a través de los botones que hay al final de este texto. El de
+              twitter o dirige a nuestro perfil y el otro al mail. Un saludo.
             </p>
           </div>
         </div>
