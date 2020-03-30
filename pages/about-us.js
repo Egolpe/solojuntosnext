@@ -56,11 +56,11 @@ const AboutUs = () => {
               queremos que esta iniciativa se haga extensiva a todos aquellos
               que se sientan solos, desanimados, tristes o ansiosos, en sus
               casas o allí donde estén pasando esta cuarentena. Para los
-              profesionales de la salud, de las fuerzas de seguridad de
-              cualquier ámbito, para cualquier tipo de profesional, al que le
-              lleva la compra al vecino o un largo etcétera de pequeños gestos
-              diarios. Hagamos que todos puedan recibir el aliento de los demás
-              que tanto necesitan. <br />
+              profesionales de la salud, para las fuerzas de seguridad de
+              cualquier ámbito, para cualquier tipo de profesional, para el que
+              le lleva la compra al vecino o un largo etcétera de pequeños
+              gestos diarios. Hagamos que todos puedan recibir el aliento de los
+              demás que tanto necesitan. <br />
               <br />
               Creemos que todos esos bonitos textos de las redes sociales se
               pierden entre la multitud de mensajes y esta es una manera de
