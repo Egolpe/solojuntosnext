@@ -77,7 +77,8 @@ const AboutUs = () => {
               <br />
               Si alguien quiere ponerse en contacto con nosotros, puede hacerlo
               a través de los botones que hay al final de este texto. El de
-              twitter o dirige a nuestro perfil y el otro al mail. Un saludo.
+              twitter que te dirige a nuestro perfil y el otro al mail. Un
+              saludo.
             </p>
           </div>
         </div>
