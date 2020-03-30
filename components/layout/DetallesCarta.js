@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import formatDistanceToNow from "date-fns/formatDistanceToNow";
 import { es } from "date-fns/locale";
 import Link from "next/link";
+import { css } from "@emotion/core";
 
 const Carta = styled.li`
   padding: 4rem;
@@ -103,7 +104,16 @@ const DetallesCarta = ({ carta }) => {
           <Link href="/cartas/[id]" as={`/cartas/${id}`}>
             <Titulo>{nombre}</Titulo>
           </Link>
-          <TextoDescripcion>{descripcion}</TextoDescripcion>
+          <TextoDescripcion
+            css={css`
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            `}
+          >
+            {descripcion}
+          </TextoDescripcion>
           <Comentarios>
             <div>
               <img src="/static/img/comentario.png" />
