@@ -82,7 +82,7 @@ const Carta = () => {
   // Administrar y validar los votos
   const votarCarta = () => {
     if (!usuario) {
-      return router.push("/login");
+      return router.push("/cartas/[id]");
     }
 
     // obtener y sumar un nuevo voto
@@ -216,7 +216,7 @@ const Carta = () => {
 
                 {usuario && (
                   <>
-                    <h2>Agrega tu comentario</h2>
+                    <h2>Escribe tu comentario</h2>
                     <form onSubmit={agregarComentario}>
                       <Campo>
                         <input
