@@ -10,6 +10,7 @@ import styled from "@emotion/styled";
 import { Campo, InputSubmit } from "../../components/ui/Formulario";
 import Boton from "../../components/ui/Boton";
 import SocialShare from "../../components/ui/SocialShare";
+import { storage } from "firebase";
 
 const ContenedorCarta = styled.div`
   @media (min-width: 768px) {
@@ -129,7 +130,9 @@ const Carta = () => {
 
   const agregarComentario = e => {
     e.preventDefault();
+    e.target.reset();
 
+    console.log(e.target);
     if (!usuario) {
       return router.push("/login");
     }
@@ -141,6 +144,7 @@ const Carta = () => {
     // Tomar copia de comentarios y agregarlos al arreglo
     const nuevosComentarios = [...comentarios, comentario];
 
+    console.log(nuevosComentarios);
     // Actualizar la BD
     firebase.db
       .collection("cartas")
@@ -156,6 +160,8 @@ const Carta = () => {
     });
 
     guardarConsultarDB(true); // hay un COMENTARIO, por lo tanto consultar a la BD
+
+    comentario.mensaje = "";
   };
 
   // función que revisa que el creador de la carta sea el mismo que esta autenticado
@@ -221,6 +227,7 @@ const Carta = () => {
                       <Campo>
                         <input
                           type="text"
+                          required
                           name="mensaje"
                           onChange={comentarioChange}
                         />
