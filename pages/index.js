@@ -5,6 +5,12 @@ import useCartas from "../hooks/useCartas";
 
 const Home = () => {
   const { cartas } = useCartas("creado");
+  const cartasUsuarios = cartas.filter((carta) => {
+    return carta.creador.nombre !== "Admin";
+  });
+  const bienvenida = cartas.filter((carta) => {
+    return carta.creador.nombre === "Admin";
+  });
 
   return (
     <div>
@@ -12,7 +18,10 @@ const Home = () => {
         <div className="listado-cartas">
           <div className="contenedor">
             <ul className="bg-white">
-              {cartas.map(carta => (
+              {bienvenida.map((carta) => (
+                <DetallesCarta key={carta.id} carta={carta} />
+              ))}
+              {cartasUsuarios.map((carta) => (
                 <DetallesCarta key={carta.id} carta={carta} />
               ))}
             </ul>
