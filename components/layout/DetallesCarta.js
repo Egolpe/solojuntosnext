@@ -90,14 +90,18 @@ const DetallesCarta = ({ carta }) => {
     descripcion,
     nombre,
     urlimagen,
-    votos
+    votos,
   } = carta;
 
   return (
     <Carta>
       <DescripcionCarta>
         <div>
-          <Imagen src={urlimagen} />
+          {urlimagen ? (
+            <Imagen src={urlimagen} />
+          ) : (
+            <Imagen src="/static/img/carta.png" />
+          )}
         </div>
 
         <div>
