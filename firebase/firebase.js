@@ -3,7 +3,7 @@ import "firebase/auth";
 import "firebase/firestore";
 import "firebase/storage";
 
-import firebaseConfig from "./config";
+import firebaseConfig from "./next.config";
 
 class Firebase {
   constructor() {
