@@ -23,7 +23,7 @@ class Firebase {
     );
 
     return await nuevoUsuario.user.updateProfile({
-      displayName: nombre
+      displayName: nombre,
     });
   }
 

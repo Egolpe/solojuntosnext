@@ -1,12 +1,15 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyB7ke-PhqFrr7o-Ooyoyvbj6P-zn7Pp09U",
-  authDomain: "product-hunt-11a49.firebaseapp.com",
-  databaseURL: "https://product-hunt-11a49.firebaseio.com",
-  projectId: "product-hunt-11a49",
-  storageBucket: "product-hunt-11a49.appspot.com",
-  messagingSenderId: "645077143778",
-  appId: "1:645077143778:web:23ce1f6a9d912380688ebb",
-  measurementId: "G-H53CZWBRBP"
+  apiKey: NEXT_APP_FIREBASE_KEY,
+  authDomain: NEXT_APP_FIREBASE_DOMAIN,
+  databaseURL: NEXT_APP_FIREBASE_DATABASE,
+  projectId: NEXT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: NEXT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: NEXT_APP_FIREBASE_SENDER_ID,
+  appId: NEXT_APP_APP_ID,
+  measurementId: NEXT_APP_MEASURENENT_ID
 };
 
 export default firebaseConfig;
+
+
+
